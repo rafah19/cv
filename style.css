@@ -24,23 +24,23 @@ article{
   height: 700px;
   padding: 5%;
   display: flex;
-  justify-items: center
+  justify-items: center;
   align-items: center;
-  background-image: url("2444.png");
+  background-image: url("aa.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .avatar{
   height: 70%;
-  width: 100%
+  width: 100%;
   box-shadow:10px 10px 70px 4px black ;
   background-image: url("1427.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .summry{
-  height: 70%
-  width: 100%
+  height: 70%;
+  width: 100%;
   color:salmon;
   padding-left: 5%;
 }
@@ -50,10 +50,10 @@ article{
   display: flex;
   align-items: center;
   justify-items: center;
-  background-image: url("00.jpg");
+  background-image: url("2444.png");
   background-size: cover;
   background-repeat: no-repeat;
-  color: gray;
+  color: powderblue;
 }
 .box{
   padding: 3%;
@@ -61,23 +61,22 @@ article{
   grid-template-columns: 1fr 4fr 4fr;
   grid-template-rows: 1fr 4fr;
   grid-template-areas:
-  "title .."
+  "title . ."
   ". col1 col2";
-  justify-items : center;
+  justify-items: center;
   align-items: center;
   height: 70%;
   width: 90%;
-  background-color: powderblue;
-
+  background-color: gray;
 }
 .edu1{
   grid-area: col1;
-  border: deshed gray thin;
+  border: dashed powderblue thin;
   padding: 20px;
 }
 .edu2{
   grid-area: col2;
-  border: deshed blue thin;
+  border: dashed powderblue thin;
   padding: 20px;
 }
 .education h1{
